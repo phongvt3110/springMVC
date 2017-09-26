@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class FrontendController {
     @RequestMapping(method = RequestMethod.GET)
     public String index(){
-        return "frontend/index";
+        return "frontend/index1";
     }
 }

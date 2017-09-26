@@ -28,6 +28,6 @@ public class HomeController {
     }
     @RequestMapping(value = "/frontend", method = RequestMethod.GET)
     public String frondend(){
-        return "frontend/index";
+        return "frontend/index1";
     }
 }
