@@ -25,6 +25,7 @@ public class AppConfig extends WebMvcConfigurerAdapter{
     public void addResourceHandlers(ResourceHandlerRegistry registry){
         registry.addResourceHandler("/css/**").addResourceLocations("/resources/css/").setCachePeriod(31556926);
         registry.addResourceHandler("/frontend/**").addResourceLocations("/resources/frontend/").setCachePeriod(31556926);
+        registry.addResourceHandler("/backend/**").addResourceLocations("/resources/backend/").setCachePeriod(31556926);
     }
 
     @Override

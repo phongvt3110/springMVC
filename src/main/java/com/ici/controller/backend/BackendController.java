@@ -11,4 +11,8 @@ public class BackendController {
     public String index(){
         return "backend/index";
     }
+    @RequestMapping(value = "index2", method = RequestMethod.GET)
+    public String index2() {
+        return "backend/index2";
+    }
 }
