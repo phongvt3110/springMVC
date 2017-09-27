@@ -342,7 +342,7 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li class="active"><a href="index.jsp"><i class="fa fa-circle-o"></i> Dashboard v1</a></li>
+            <li class="active"><a href="/backend"><i class="fa fa-circle-o"></i> Dashboard v1</a></li>
             <li><a href="/backend/index2"><i class="fa fa-circle-o"></i> Dashboard v2</a></li>
           </ul>
         </li>
@@ -362,7 +362,7 @@
           </ul>
         </li>
         <li>
-          <a href="pages/widgets.html">
+          <a href="/backend/pages/widgets">
             <i class="fa fa-th"></i> <span>Widgets</span>
             <span class="pull-right-container">
               <small class="label pull-right bg-green">new</small>
@@ -427,7 +427,7 @@
           </ul>
         </li>
         <li>
-          <a href="pages/calendar.html">
+          <a href="/backend/pages/calendar">
             <i class="fa fa-calendar"></i> <span>Calendar</span>
             <span class="pull-right-container">
               <small class="label pull-right bg-red">3</small>

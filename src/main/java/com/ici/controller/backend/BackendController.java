@@ -15,4 +15,12 @@ public class BackendController {
     public String index2() {
         return "backend/index2";
     }
+    @RequestMapping(value = "pages/calendar", method = RequestMethod.GET)
+    public String calendar() {
+        return "backend/pages/calendar";
+    }
+    @RequestMapping(value = "pages/widgets", method = RequestMethod.GET)
+    public String widgets() {
+        return "backend/pages/widgets";
+    }
 }
