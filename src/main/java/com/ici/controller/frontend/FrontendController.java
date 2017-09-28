@@ -8,7 +8,11 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @RequestMapping(value = "/")
 public class FrontendController {
     @RequestMapping(method = RequestMethod.GET)
-    public String index(){
+    public String index() {
+        return "frontend/index";
+    }
+    @RequestMapping(value = "index1",method = RequestMethod.GET)
+    public String index1(){
         return "frontend/index1";
     }
 }

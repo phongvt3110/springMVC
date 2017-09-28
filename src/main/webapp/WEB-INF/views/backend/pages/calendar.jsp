@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
   <meta charset="utf-8">
@@ -37,7 +37,7 @@
 
   <header class="main-header">
     <!-- Logo -->
-    <a href="../index2.html" class="logo">
+    <a href="/backend/index2" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
       <span class="logo-mini"><b>A</b>LT</span>
       <!-- logo for regular state and mobile devices -->
@@ -335,8 +335,8 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="../index.html"><i class="fa fa-circle-o"></i> Dashboard v1</a></li>
-            <li><a href="../index2.html"><i class="fa fa-circle-o"></i> Dashboard v2</a></li>
+            <li><a href="/backend"><i class="fa fa-circle-o"></i> Dashboard v1</a></li>
+            <li><a href="/backend/index2"><i class="fa fa-circle-o"></i> Dashboard v2</a></li>
           </ul>
         </li>
         <li class="treeview">
@@ -355,7 +355,7 @@
           </ul>
         </li>
         <li>
-          <a href="widgets.html">
+          <a href="/backend/pages/widgets">
             <i class="fa fa-th"></i> <span>Widgets</span>
             <span class="pull-right-container">
               <small class="label pull-right bg-green">new</small>
@@ -420,7 +420,7 @@
           </ul>
         </li>
         <li class="active">
-          <a href="calendar.html">
+          <a href="calendar.jsp">
             <i class="fa fa-calendar"></i> <span>Calendar</span>
             <span class="pull-right-container">
               <small class="label pull-right bg-red">3</small>
