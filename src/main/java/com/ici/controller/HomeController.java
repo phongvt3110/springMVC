@@ -27,7 +27,7 @@ public class HomeController {
         return "welcome";
     }
     @RequestMapping(value = "/frontend", method = RequestMethod.GET)
-    public String frondend(){
+    public String frontend(){
         return "frontend/index1";
     }
 }
