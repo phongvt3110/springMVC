@@ -9,9 +9,13 @@
 <html>
 <head>
     <title>Title</title>
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/css/stylesheet.css" type="text/css" media="all"/>
 </head>
 <body>
     <h2>Greeting : ${greeting}</h2>
 <a href="home">Back to home</a>
+<a href="/about/home">
+    <button class="hello-btn" type="button">Home</button>
+</a>
 </body>
 </html>

@@ -25,5 +25,14 @@
 <a href="helloagain">
     <button class="hello-btn" type="button">Hello again</button>
 </a>
+<a href="/about/helloagain">
+    <button class="hello-btn" type="button">Hello again</button>
+</a>
+<a href="/about/welcome">
+    <button class="hello-btn" type="button">Home</button>
+</a>
+<a href="welcome">
+    <button class="hello-btn" type="button">Home</button>
+</a>
 </body>
 </html>
