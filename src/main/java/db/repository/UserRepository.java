@@ -7,7 +7,7 @@ import db.model.User;
 
 public class UserRepository {
     public static void addUser() {
-        Session session = HibernateUtil.getSessionFactory().openSession();
+        Session session = HibernateUtil.getSessionFactory().getCurrentSession();
 
         session.beginTransaction();
         User user = new User();
@@ -23,7 +23,7 @@ public class UserRepository {
         System.out.println("done, 1 row is inserted!");
     }
     public static void addUser(User usr) {
-        Session session = HibernateUtil.getSessionFactory().openSession();
+        Session session = HibernateUtil.getSessionFactory().getCurrentSession();
 
         session.beginTransaction();
         User user = new User();
