@@ -19,7 +19,7 @@ public class FrontendController {
     public String index1(){
         User user = new User();
         user.setUsername("phongvt651043");
-        user.setCreatedBy("EAS2018");
+        user.setCreatedBy("EAS-Admin-2018");
         user.setCreatedDate(new Date());
         UserRepository.addUser(user);
         return "frontend/index1";
