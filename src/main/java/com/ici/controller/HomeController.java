@@ -1,7 +1,7 @@
 package com.ici.controller;
 
-import db.model.User;
-import db.repository.UserRepository;
+import com.ici.db.model.User;
+import com.ici.db.repository.UserRepository;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.ui.ModelMap;

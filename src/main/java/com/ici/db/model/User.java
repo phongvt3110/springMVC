@@ -1,4 +1,4 @@
-package db.model;
+package com.ici.db.model;
 
 import java.util.Date;
 

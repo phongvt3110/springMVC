@@ -1,13 +1,13 @@
-package db.repository;
+package com.ici.db.repository;
 
+import com.ici.db.model.User;
 import org.hibernate.Session;
-import db.config.HibernateUtil;
+import com.ici.db.config.HibernateUtil;
 import java.util.Date;
-import db.model.User;
 
 public class UserRepository {
     public static void addUser() {
-        Session session = HibernateUtil.getSessionFactory().getCurrentSession();
+        Session session = HibernateUtil.getSessionFactory().openSession();
 
         session.beginTransaction();
         User user = new User();
@@ -19,11 +19,11 @@ public class UserRepository {
 
         session.save(user);
         session.getTransaction().commit();
-        HibernateUtil.shutdown();
+        session.close();
         System.out.println("done, 1 row is inserted!");
     }
     public static void addUser(User usr) {
-        Session session = HibernateUtil.getSessionFactory().getCurrentSession();
+        Session session = HibernateUtil.getSessionFactory().openSession();
 
         session.beginTransaction();
         User user = new User();
@@ -35,7 +35,7 @@ public class UserRepository {
 
         session.save(user);
         session.getTransaction().commit();
-        HibernateUtil.shutdown();
+        session.close();
         System.out.println("done, 1 row is inserted!");
     }
 }
